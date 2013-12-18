@@ -5,7 +5,9 @@ class Array
 
   def max_subarray
 
+
     size = self.count
+    return [] if size < 1
     start_ptr = 0
     end_ptr = size - 1
     max_subarray_coords = [start_ptr,end_ptr]
