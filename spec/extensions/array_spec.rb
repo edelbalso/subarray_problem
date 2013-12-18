@@ -27,7 +27,7 @@ describe Array do
 
       describe 'flip flop sequences' do
         let(:arr) { [4,-4,4,-4] }
-        it { should == [4,-4,4] }
+        it { should == [4] }
       end
 
       describe 'symmetrical arrays' do
